@@ -11,6 +11,7 @@ public class Copy {
 		//Ì½¾¿copyµÄÇ³¸´ÖÆ
 		List<String> list1 = Arrays.asList("red","green","blue");
 		List<String> list2 = Arrays.asList("pink","sdfdsf");
+		
 		Collections.copy(list1, list2);
 		System.out.println(list1);
 		System.out.println(list2);
